@@ -1,1 +1,7 @@
-apmd_flags=-A # Advanced Power Management (laptop)
+## POWER SETTINGS
+apmd_enable=YES
+apmd_flags=-A      # Advanced Power Management (laptop)
+blanktime=NO       # default screen blanking interval is used (else in seconds)
+
+## 
+
