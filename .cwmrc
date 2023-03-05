@@ -1,0 +1,34 @@
+# automatically add new windows to the current group
+sticky yes
+
+# snap windows to edges at 4 pixels distance
+snapdist 4
+
+# leave a gap for xclock
+gap 0 14 0 0
+
+# set font for menus
+fontname "fixed:pixelsize=13:style=semicondensed"
+
+# remove all default keybindings
+#unbind-key all
+
+# KEYBINDINGS:
+# 4 = mod (windows key)
+# S = shift
+# C = control
+# M = meta (alt)
+
+# mod + left click drag = move window
+bind-mouse 4-1 window-move
+# mod + right click drag = resize window
+bind-mouse 4-3 window-resize
+
+# these commands will appear in the command menu
+command xterm  xterm
+command chrome "firefox --enable-unveil"
+command xclock xclock
+command xcalc  xcalc
+
+# ignore these windows when tiling/cycling
+ignore xclock

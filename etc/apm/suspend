@@ -1,0 +1,2 @@
+#!/bin/sh
+pkill -USR1 xidle          # auto-lock user session when the lid is closed
