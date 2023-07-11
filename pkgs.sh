@@ -10,4 +10,6 @@ vim \
 abcde \
 cdrdao \
 age \
-wireguard-tools"
+wireguard-tools \
+rsync \
+magic-wormhole"
