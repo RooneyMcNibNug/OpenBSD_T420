@@ -12,4 +12,5 @@ cdrdao \
 age \
 wireguard-tools \
 rsync \
-magic-wormhole"
+magic-wormhole \
+htop"
