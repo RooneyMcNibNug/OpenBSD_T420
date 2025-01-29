@@ -1,16 +1,19 @@
 #!/usr/bin/bash
 
 pkg_add -iv "wget \
-w3m \
+links \
 firefox \
 git \
 tor \
-nano \
 vim \
 abcde \
 cdrdao \
-age \
+keepassxc \
 wireguard-tools \
 rsync \
 magic-wormhole \
-htop"
+htop \
+feh \
+ffmpeg \
+yt-dlp \
+mpv"
